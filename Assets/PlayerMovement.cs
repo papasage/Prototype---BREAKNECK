@@ -353,7 +353,7 @@ public class PlayerMovement : MonoBehaviour
             //SPEEDOMETER CODE HERE
             float kilometerConversion = rb.velocity.magnitude * 2;
             //display speed on HUD
-            SpeedText.text = "Speed:" + kilometerConversion.ToString("F0") + "kph";
+            SpeedText.text = "Pace:" + kilometerConversion.ToString("F0") + "kph";
 
 
             //if it is greater than our moveSpeed, then recalculate what it should be and apply
